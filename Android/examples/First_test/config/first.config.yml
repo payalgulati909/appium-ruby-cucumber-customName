@@ -1,0 +1,22 @@
+server: "mobile-hub.lambdatest.com"
+
+common_caps:
+  "user": "username"
+  "accessKey": "accesskey"
+  "project": "First Cucumber Android Project"
+  "build": "build-1"
+  
+
+browser_caps:
+  -
+    "platformName": "Android"
+    "platformVersion": "9"
+    "deviceName": "Galaxy S8 Plus"
+
+
+    #Enter the Custom_ID here that was used to upload your application
+
+    "app": "ENTER_CUSTOM_ID_HERE"
+    
+    "name": "first_test"
+    "isRealMobile": "true"

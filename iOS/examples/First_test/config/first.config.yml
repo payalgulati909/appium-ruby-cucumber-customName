@@ -1,0 +1,23 @@
+server: "mobile-hub.lambdatest.com"
+
+common_caps:
+  "user": "username"
+  "accessKey": "accesskey"
+  "project": "First Cucumber Android Project"
+  "build": "build-1"
+  
+
+browser_caps:
+  -
+    "platformName": "iOS"
+    "platformVersion": "12.0"
+    "deviceName": "iPhone 8"
+
+
+    #Enter the Custom_ID here that was used to upload your application
+
+    "app": s"ENTER_CUSTOM_ID_HERE",
+
+    "name": "first_test"
+    "isRealMobile": "true"
+
